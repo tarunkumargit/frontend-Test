@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MediaMonks</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Fonts -->
+    <link rel="stylesheet" href="fonts/stylesheet.css" type="text/css" />
+    <!-- Icons -->
+    <link rel="stylesheet" href="icons/css/mmicons.css" type="text/css" />
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+
+  <body onload="showLoader()">
+    <main>
+      <div class="loader flex" id="jsLoader">
+        <div class="loader-elements">
+          <img class="animated-monk" src="img/monk.png" alt="page is loading" />
+          <span class="animated-fog"></span>
+
+          <span class="first-animatedText" id="jsAnTxtFst">Patience!</span>
+
+          <span class="second-animatedText display-none" id="jsAnTxtScn"
+            >young padowan...</span
+          >
+        </div>
+      </div>
+
+      <section class="cover display-none opacity-none" id="jsCover">
+        <ul class="arrow-controls">
+          <li class="arrow-left">
+            <button class="opacity-none" id="leftArrow" disabled>
+              <i class="icon-chev-left"></i>
+            </button>
+          </li>
+          <li class="arrow-right">
+            <button id="rightArrow">
+              <i class="icon-chev-right"></i>
+            </button>
+          </li>
+        </ul>
+        <div class="cover-content">
+          <ul class="statements">
+            <li class="statementContent">
+              <p class="flex-atStart">
+                <span>We are breaking</span>
+                <span>our vow</span>
+                <span>of silence</span>
+              </p>
+            </li>
+            <li class="statementContent mid-left opacity-none">
+              <p class="flex-atStart">
+                <span>Talent is given</span>
+                <span>true skill is</span>
+                <span>earned</span>
+              </p>
+            </li>
+            <li class="statementContent mid-left opacity-none">
+              <p class="flex-atStart">
+                <span>Be flexible to</span>
+                <span>change and</span>
+                <span>sturdy in</span>
+                <span>conviction</span>
+              </p>
+            </li>
+            <li class="statementContent mid-right opacity-none">
+              <p class="flex-atEnd">
+                <span>Use many skills</span>
+                <span>yet work as one</span>
+              </p>
+            </li>
+            <li class="statementContent mid-right opacity-none">
+              <p class="flex-atEnd">
+                <span>To master</span>
+                <span>anything find</span>
+                <span>interest in</span>
+                <span>everything</span>
+              </p>
+            </li>
+            <li class="statementContent altop-right opacity-none">
+              <p class="flex-atEnd">
+                <span>Individuals</span>
+                <span>flourish</span>
+                <span>if culture</span>
+                <span>and wisdom</span>
+                <span>are shared</span>
+              </p>
+            </li>
+            <li class="statementContent mid-left opacity-none">
+              <p class="flex-atStart">
+                <span>Train for</span>
+                <span>perfection but</span>
+                <span>aim for more</span>
+              </p>
+            </li>
+            <li class="statementContent mid-left opacity-none">
+              <p class="flex-atStart">
+                <span>Take pride in your</span>
+                <span>work but do not</span>
+                <span>seek praise</span>
+              </p>
+            </li>
+            <li class="statementContent mid-left opacity-none">
+              <p class="flex-atStart">
+                <span>Temporary</span>
+                <span>sacrifice brings</span>
+                <span>lasting results</span>
+              </p>
+            </li>
+          </ul>
+          <div class="intro" id="jsIntro">
+            <p>
+              In January 2011, after a decade of digital, we opened the doors to
+              our temple.
+            </p>
+            <p>Follow our noble eightfold path to digital enlightment here.</p>
+          </div>
+        </div>
+
+        <div class="pagination">
+          <ul class="pagination-list">
+            <li>
+              <button class="pageNumber white-box">
+                <span class="transparent">0</span>
+              </button>
+            </li>
+            <li>
+              <button class="pageNumber">
+                <span>1</span>
+              </button>
+            </li>
+            <li>
+              <button class="pageNumber">
+                <span>2</span>
+              </button>
+            </li>
+            <li>
+              <button class="pageNumber">
+                <span>3</span>
+              </button>
+            </li>
+            <li>
+              <button class="pageNumber">
+                <span>4</span>
+              </button>
+            </li>
+            <li>
+              <button class="pageNumber">
+                <span>5</span>
+              </button>
+            </li>
+            <li>
+              <button class="pageNumber">
+                <span>6</span>
+              </button>
+            </li>
+            <li>
+              <button class="pageNumber">
+                <span>7</span>
+              </button>
+            </li>
+            <li>
+              <button class="pageNumber">
+                <span>8</span>
+              </button>
+            </li>
+            <li>
+              <button class="pageNumber">
+                <span class="transparent">9</span>
+              </button>
+            </li>
+          </ul>
+          <div class="pageInfo opacity-none" id="pageInfo">
+            <p>
+              Step <span id="currentPage"></span> out of
+              <span id="totalPage"></span> on the path to digital enlightment.
+            </p>
+          </div>
+        </div>
+
+        <div class="join-us opacity-none display-none" id="joinUs">
+          <h2>Become a Monk</h2>
+          <div class="info">
+            <p>Interested in joining our monastery?</p>
+            <p>
+              Checkout our current openings on
+              <a href="http://mediamonks.com/careers/" target="_blank"
+                >mediamonks.com/careers</a
+              >.
+            </p>
+            <div class="social">
+              <ul>
+                <li>
+                  <a href="mailto:mail@mail.com" target="_blank">
+                    <i class="icon-mail"></i>
+                    <span>Mail ons</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://facebook.com" target="_blank">
+                    <i class="icon-facebook"></i>
+                    <span>Facebook</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com" target="_blank">
+                    <i class="icon-twitter"></i>
+                    <span>Twitter</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="mm-logo">
+          <svg>
+            <image class="" xlink:href="img/logo.svg" width="80" height="80" />
+          </svg>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

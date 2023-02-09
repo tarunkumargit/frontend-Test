@@ -1,0 +1,14 @@
+{
+  "name": "mediamonks-test",
+  "version": "1.0.0",
+  "description": "Front end skill test for media.monks",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass scss/style.scss css/style.css -w"
+  },
+  "author": "tarun",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

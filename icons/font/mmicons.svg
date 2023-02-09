@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2019 by original authors @ fontello.com</metadata>
+<defs>
+<font id="mmicons" horiz-adv-x="1000" >
+<font-face font-family="mmicons" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="chev-left" unicode="&#xe800;" d="M740 772l42-42-378-380 388-388-42-42-432 430 422 422z" horiz-adv-x="1000" />
+
+<glyph glyph-name="chev-right" unicode="&#xe801;" d="M372-82l-42 42 378 378-390 390 42 42 432-432-420-420z" horiz-adv-x="1000" />
+
+<glyph glyph-name="facebook" unicode="&#xe802;" d="M577-150v456h154l22 178h-176v113c0 52 15 87 89 87l94 0v159c-17 2-72 7-137 7-136 0-229-83-229-235v-131h-154v-178h154v-456h183z" horiz-adv-x="1000" />
+
+<glyph glyph-name="twitter" unicode="&#xe803;" d="M750 288c69 0 125 56 125 125s-56 125-125 125h-375v187c0 69-56 125-125 125s-125-56-125-125v-500c0-207 168-375 375-375h250c69 0 125 56 125 125s-56 125-125 125h-250c-69 0-125 56-125 125v63h375z" horiz-adv-x="1000" />
+
+<glyph glyph-name="mail" unicode="&#xe804;" d="M824 558l-324-285-324 285c-13 11-32 10-44-3-11-13-10-32 3-44l345-303c5-5 13-8 20-8s15 2 21 8l344 303c13 11 14 31 3 44-12 13-31 14-44 3z m176 32v-528c0-55-42-100-93-100h-814c-51 0-93 45-93 100v528c0 56 42 100 93 100h814c51 0 93-44 93-100z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
